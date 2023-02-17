@@ -1,10 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Title from './components/index'
+import Main from './components/main/index'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Te amo amorzao</Text>
+      <Title />
+      <Main/>
       <StatusBar style="auto" />
     </View>
   );
